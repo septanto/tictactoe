@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.gradle.build-scan' version '1.16'
 }
 
 group 'com.septanto.tdd'
@@ -13,4 +14,9 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
 }
