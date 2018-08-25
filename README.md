@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/septanto/tictactoe.svg?branch=master)](https://travis-ci.com/septanto/tictactoe)
+
 # Test-Driven Java Developement
 
 This is my personal space for learning test-driven java development
