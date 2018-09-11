@@ -1,7 +1,6 @@
 package com.septanto.tddjava.ch3tictactoe;
 
 import com.mongodb.MongoException;
-import com.mongodb.WriteResult;
 import com.septanto.tddjava.ch3tictactoe.mongo.TicTacToeBean;
 import org.jongo.MongoCollection;
 import org.junit.Before;

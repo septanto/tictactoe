@@ -24,3 +24,11 @@ buildScan {
     termsOfServiceUrl = 'https://gradle.com/terms-of-service'
     termsOfServiceAgree = 'yes'
 }
+
+test {
+    include '**/*Spec.class'
+}
+
+task testInteg(type: Test) {
+    include '**/*Integ.class'
+}

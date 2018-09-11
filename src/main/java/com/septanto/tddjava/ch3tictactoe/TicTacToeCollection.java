@@ -28,7 +28,6 @@ public class TicTacToeCollection {
         } catch (Exception e) {
             return false;
         }
-
     }
 
     public boolean drop() {

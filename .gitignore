@@ -36,3 +36,5 @@ gradle-app.setting
 .gradle/
 build/
 bin/
+
+.vagrant/
